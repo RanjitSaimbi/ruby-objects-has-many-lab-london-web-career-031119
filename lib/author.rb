@@ -10,6 +10,7 @@ class Author
   def add_post(post) 
     @posts << post
     post.author = self
+    @@total_posts += 1
   end 
 
   def add_post_by_title(post_title)
