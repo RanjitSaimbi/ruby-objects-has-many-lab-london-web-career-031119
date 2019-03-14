@@ -16,6 +16,8 @@ class Song
   
   def artist_name
     self.artist.name 
+    puts "hgfd"
+    binding.pry 
   end 
   
 end 
