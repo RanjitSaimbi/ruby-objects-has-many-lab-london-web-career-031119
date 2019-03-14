@@ -1,8 +1,7 @@
 class Author 
   
   @@total_songs = 0
-  attr_reader :name
-  attr_accessor :songs 
+  attr_accessor :songs, :name  
   
   def initialize(name)
     @name = name
