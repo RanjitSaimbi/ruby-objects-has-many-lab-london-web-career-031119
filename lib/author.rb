@@ -1,4 +1,4 @@
-class Artist 
+class Author 
   
   @@total_songs = 0
   attr_reader :name
