@@ -24,5 +24,6 @@ class Artist
   
   def self.song_count
     binding.pry 
+    "hello"
   end 
 end 
