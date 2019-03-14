@@ -16,11 +16,9 @@ class Song
   
   def artist_name
     if self.artist
-    self.artist.name
-  else
-    nil
-    puts "hgfd"
-    binding.pry 
-  end 
+      self.artist.name
+    else
+      nil
+    end 
   
 end 
