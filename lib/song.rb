@@ -16,7 +16,6 @@ class Song
     if @name 
       @name
     else
-      
       nil 
     end 
   end 
