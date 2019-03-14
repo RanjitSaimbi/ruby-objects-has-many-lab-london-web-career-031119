@@ -4,5 +4,7 @@ class Author
   def initialize(name)
     @name = name
   end 
+  
+  add_post 
 
 end 
